@@ -1,0 +1,298 @@
+
+body {font-family: Arial, Helvetica, sans-serif;
+
+    background: linear-gradient(to right , #fefefe ,#f56b94);
+  }
+  
+  /* Full-width input fields */
+  input[type=text] {
+    border: none;
+   
+   outline: none;
+   border-bottom: 2px solid gray;
+   border-radius: 10px;
+   font-size: 20px;
+   width: 35%;
+   height: 37px;
+   padding: 20px;
+   position: absolute;
+   margin-top: -28px;
+   margin-left: 32px;
+  
+  text-decoration: ltr;
+  text-align: left; 
+  }
+  .input_Picture::placeholder{
+    font-size: 20px;
+    color: rgb(216, 125, 178);;
+    }
+    .input_Picture:focus::placeholder{
+    font-size: 30px;
+    }
+
+    input[type=txt] {
+        border: none;
+       
+       outline: none;
+       border-bottom: 2px solid gray;
+       border-radius: 10px;
+       font-size: 20px;
+       width: 35%;
+       height: 37px;
+       padding: 20px;
+       position: absolute;
+       margin-top: 29px;
+       margin-left: 32px;
+      
+      text-decoration: ltr;
+      text-align: left; 
+      }
+      .input_Picture::placeholder{
+        font-size: 20px;
+        color: rgb(216, 125, 178);;
+        }
+        .input_Picture:focus::placeholder{
+        font-size: 30px;
+        }
+
+
+
+
+        input[type=number] {
+     
+    border: none;
+    outline: none;
+    border-bottom: 2px solid gray;
+    border-radius: 10px;
+    font-size: 20px;
+    width: 35%;
+    height: 37px;
+    padding: 20px;
+    position: absolute;
+    margin-top: 98px;
+    margin-left: 32px;
+    text-decoration: ltr;
+    text-align: left;
+          }
+          .input_Picture::placeholder{
+            font-size: 20px;
+            color: rgb(216, 125, 178);;
+            }
+            .input_Picture:focus::placeholder{
+            font-size: 30px;
+            }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  h2{
+  
+    margin-left: 346px;
+    margin-top: 210px;
+    font-size: 67px;
+    font-family: sans-serif;
+  
+  
+  
+  }
+  .click{
+    margin-left: 641px;
+    margin-top: -124px;
+  color: rgb(88, 75, 77);
+  
+  }
+  
+  
+  
+  input[type=password] {
+    border: none;
+    outline: none;
+    border-bottom: 2px solid gray;
+    border-radius: 10px;
+    font-size: 20px;
+    width: 35%;
+    height: 37px;
+    padding: 20px;
+    position: absolute;
+    margin-top: 165px;
+    margin-left: 32px;
+    text-decoration: ltr;
+    text-align: left;
+  }
+  
+  
+  /* Set a style for all buttons */
+  button {
+  
+    background-color: lightcoral;
+    color: black;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 223px;
+    border-radius: 140px;
+    font-size: 20px;
+    font-family: fantasy;
+  
+  
+  }
+  
+  button:hover {
+    opacity: 0.8;
+  }
+  
+  /* Extra styles for the cancel button */
+  .cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+  }
+  
+  /* Center the image and position the close button */
+  .imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+    position: relative;
+  }
+  
+  img.avatar {
+    width: 40%;
+    border-radius: 50%;
+  }
+  
+  .container {
+    padding: 16px;
+  }
+  
+  span.psw {
+    float: right;
+    padding-top: 16px;
+  }
+  
+  /* The Modal (background) */
+  .modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    padding-top: 60px;
+  }
+  
+  /* Modal Content/Box */
+  .modal-content {
+      background-color: #fefefe;
+      margin: 5% auto 15% auto;
+      border: 1px solid #888;
+      width: 45%;
+      height: 102%;
+      margin-top: -19px;
+  
+    }
+  
+  /* The Close Button (x) */
+  .close {
+    position: absolute;
+    right: 25px;
+    top: 0;
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+  }
+
+
+
+
+
+
+
+  #message {
+    display:none;
+    background: #f1f1f1;
+    color: #000;
+    position: relative;
+    padding: 20px;
+    margin-top: 10px;
+  }
+  
+  #message p {
+    padding: 10px 35px;
+    font-size: 18px;
+  }
+  
+  /* Add a green text color and a checkmark when the requirements are right */
+  .valid {
+    color: green;
+  }
+  
+  .valid:before {
+    position: relative;
+    left: -35px;
+    content: "✔";
+  }
+  
+  /* Add a red text color and an "x" when the requirements are wrong */
+  .invalid {
+    color: red;
+  }
+  
+  .invalid:before {
+    position: relative;
+    left: -35px;
+    content: "✖";
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: red;
+    cursor: pointer;
+  }
+  
+  /* Add Zoom Animation */
+  .animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+  }
+  
+  @-webkit-keyframes animatezoom {
+    from {-webkit-transform: scale(0)} 
+    to {-webkit-transform: scale(1)}
+  }
+    
+  @keyframes animatezoom {
+    from {transform: scale(0)} 
+    to {transform: scale(1)}
+  }
+  
+  /* Change styles for span and cancel button on extra small screens */
+  @media screen and (max-width: 300px) {
+    span.psw {
+       display: block;
+       float: none;
+    }
+    .cancelbtn {
+       width: 100%;
+    }
+  }
+  
